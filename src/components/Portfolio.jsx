@@ -331,7 +331,7 @@ export default function Portfolio() {
               {[
                 { number: "5+", label: "Projets" },
                 { number: "5", label: "Stages" },
-                { number: "8", label: "Certifs" }
+                { number: "9", label: "Certifs" }
               ].map((stat, index) => (
                 <motion.div
                   key={index}
@@ -481,6 +481,12 @@ export default function Portfolio() {
           issuer: "365 Data Science",
           category: "Data Science",
           icon: "🧠"
+        },
+        {
+          title: "n8n - Build intelligent AI 2.0 agent systems without coding",
+          issuer: "Udemy",
+          category: "AI Agent",
+          icon: "🤖"
         }
       ].map((cert, index) => (
         <motion.div
@@ -541,7 +547,7 @@ export default function Portfolio() {
     >
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
-          { number: "8", label: "Certifications" },
+          { number: "9", label: "Certifications" },
           { number: "6+", label: "Domaines" },
           { number: "100%", label: "Complétées" },
           { number: "4", label: "Certifications phares" }
