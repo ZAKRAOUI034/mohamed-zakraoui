@@ -54,6 +54,16 @@ const featuredProjects = [
     tech: ["Python", "MATLAB"],
     details: "Collecte données, calibration modèle, comparaison expérimentale.",
     link: null
+  },
+  {
+    id: "n8n",
+    title: "Fusion du génie des procédés et de l’automatisation avec n8n ",
+    summary: "Détecter automatiquement les déviations des paramètres clés d’un procédé industriel.",
+    image: "/assets/n8nandgp.jpg",
+    tech: ["n8n", "GP", "AI Agent"],
+    details: "Un système simple mais puissant qui permet un suivi continu du procédé , alerte automatiquement en cas d’anomalie",
+    link: "https://www.linkedin.com/posts/mohamed-zakraoui-a036t_n8n-automation-geniedesprocedes-activity-7383585907276414977-VLCl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwqsD8B1ejiJJ20WVhiCfE_UP8ZveahckA",
+    featured: true
   }
 ];
 
