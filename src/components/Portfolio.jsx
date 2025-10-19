@@ -955,7 +955,7 @@ function SkillsSection() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-lg font-semibold shadow-lg mb-6"
           >
             <RiRobot2Line className="text-xl" />
-            Développeur assisté par technologies intelligentes & Digital Transformer
+            Assisté par technologies intelligentes & Digital Transformer
             <LuCpu className="text-xl" />
           </motion.div>
           
@@ -1157,7 +1157,7 @@ function SkillsSection() {
           className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl border border-cyan-200 p-8 text-center"
         >
           <div className="max-w-2xl mx-auto">
-            <div className="text-6xl mb-4">✨</div>
+            <div className="text-6xl mb-4"></div>
             <blockquote className="text-xl font-semibold text-gray-800 mb-4">
             </blockquote>
             <div className="flex items-center justify-center gap-2">
