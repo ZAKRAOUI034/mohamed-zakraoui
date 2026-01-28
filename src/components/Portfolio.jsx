@@ -69,6 +69,18 @@ const featuredProjects = [
     details: "Système d'alerte continue des paramètres procédés, intégration notifications et tableaux de bord.",
     link: "https://www.linkedin.com/posts/mohamed-zakraoui-a036t_n8n-automation-geniedesprocedes-activity-7383585907276414977-VLCl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwqsD8B1ejiJJ20WVhiCfE_UP8ZveahckA",
     featured: true
+  },
+  {
+    id: "evaporation-cristallisation",
+    title: "Simulateur Avancé — Évaporation & Cristallisation",
+    summary: "Application web complète pour la simulation et l'optimisation de procédés industriels de sucre.",
+    image: "/assets/project-evaporation.png",
+    tech: ["Streamlit", "Python", "Docker", "Plotly", "Render"],
+    details: "Conception et simulation d'une unité intégrée d'évaporation à triple effet et de cristallisation batch. Interface interactive avec visualisations professionnelles et export multi-formats.",
+    link: "https://simulateur-evaporation-latest.onrender.com",
+    github: "https://github.com/ZAKRAOUI036/simulateur-evaporation-cristallisation.git",
+    docker: "https://hub.docker.com/r/kawtarelidrissi/simulateur-evaporation",
+    featured: false
   }
 ];
 
