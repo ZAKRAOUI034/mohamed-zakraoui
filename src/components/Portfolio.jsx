@@ -13,6 +13,17 @@ import ScrollIndicator from './ScrollIndicator';
 
 const featuredProjects = [
   {
+    id: "apqp-ai",
+    title: "Digital APQP by AI",
+    summary: "Plateforme intelligente pour digitaliser le processus APQP avec assistance IA.",
+    image: "/assets/APQP_AI.png",
+    tech: ["React", "AI", "APQP", "Vercel"],
+    details: "Projet en cours de développement : conception d'une solution web pour structurer, suivre et optimiser les étapes APQP avec une assistance IA pour accélérer la documentation, la traçabilité et le pilotage qualité.",
+    link: "https://apqp-dig.vercel.app/",
+    featured: true,
+    status: "En cours de développement"
+  },
+  {
     id: "digitalization",
     title: "Digitalisation du processus — Briqueterie Jbel Annour",
     summary: "Application web pour digitaliser le suivi de production et intégrer QHSE.",
@@ -1116,6 +1127,11 @@ export default function Portfolio() {
                     <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-indigo-600 transition-colors">
                       {project.title}
                     </h3>
+                    {project.status && (
+                      <span className="mt-3 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700 border border-amber-200">
+                        {project.status}
+                      </span>
+                    )}
                     <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
                       {project.summary}
                     </p>
@@ -1637,7 +1653,14 @@ function ProjectModal({ project, onClose }) {
         
         <div className="p-8">
           <div className="flex justify-between items-start mb-6">
-            <h3 className="text-2xl font-bold text-gray-900">{project.title}</h3>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900">{project.title}</h3>
+              {project.status && (
+                <span className="mt-3 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700 border border-amber-200">
+                  {project.status}
+                </span>
+              )}
+            </div>
             {project.featured && (
               <span className="px-4 py-1 bg-yellow-400 text-yellow-900 rounded-full text-sm font-bold flex items-center gap-1">
                 <FaStar /> Projet phare
