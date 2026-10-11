@@ -30,7 +30,7 @@ const featuredProjects = [
     image: "/assets/project-digitalization.jpg",
     tech: ["React", "Tailwind", "API"],
     details: "Développement d'une solution complète pour la collecte des données de production en temps réel, création de tableaux de bord KPI personnalisés, et mise en place d'un système d'amélioration continue intégré à la gestion QHSE.",
-    link: "https://processus-briquetrie-jbelannour.netlify.app",
+    link: "https://www.linkedin.com/posts/mohamed-zakraoui-a036t_stage-gaezniedesprocaezdaezs-procaezdaezsetingenieuriechimique-ugcPost-7363690587352363010-msPp/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7363690588493205505&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAADwqsD8B1ejiJJ20WVhiCfE_UP8ZveahckA",
     featured: true
   },
   {
@@ -408,7 +408,7 @@ export default function Portfolio() {
                 transition={{ duration: 3, repeat: Infinity }}
                 className="absolute -top-4 -right-4 bg-white px-4 py-2 rounded-full shadow-lg border"
               >
-                <span className="text-sm font-semibold text-indigo-600">Stagiaire PFE chez STMicroelectronics</span>
+                <span className="text-sm font-semibold text-indigo-600"> PFE chez STMicroelectronics</span>
               </motion.div>
               
               <motion.div 
@@ -753,7 +753,7 @@ export default function Portfolio() {
                     company: "STMicroelectronics",
                     logo: "/assets/logos/stmicroelectronics.png",
                     role: "Ingénieur Procédés & Qualité",
-                    period: "Mars 2025 - Présent · 4+ mois",
+                    period: "Mars 2026 - sept. 2026 ",
                     location: "Bouskoura, Maroc",
                     description: [
                       "Participation à un projet de réduction des pertes de matière (glue et leadframe) sur procédé Die Attach.",
@@ -762,7 +762,7 @@ export default function Portfolio() {
                       "Suivi des indicateurs de performance et reporting technique."
                     ],
                     skills: ["DMAIC", "Process Engineering", "Analyse statistique", "Qualité industrielle"],
-                    current: true
+                    current: false
                   },
                   {
                     id: "briqueterie",
